@@ -1,0 +1,33 @@
+stages:
+  data_source:
+    cmd: python src/get_data.py --config=params.yaml
+    deps:
+    - src/get_data.py
+    - data_original/mushrooms.csv
+    outs:
+    - datas/processed/train_mushrooms.csv
+    - datas/processed/test_mushrooms.csv
+
+  encoder:
+    cmd: python src/data_preprocess.py --config=params.yaml
+    deps:
+    - datas/encoder/train_encoded_mushrooms.csv
+    - datas/encoder/test_encoded_mushrooms.csv
+    - src/data_preprocess.py
+  
+  train_and_evaluate:
+    cmd: python src/model.py --config=params.yaml
+    deps:
+    - datas/encoder/train_encoded_mushrooms.csv
+    - datas/encoder/test_encoded_mushrooms.csv
+    - python src/model.py
+    params:
+    - estimator.SVC.params.cache_size
+    - estimator.SVC.params.degree
+    
+  metrics:
+  - reports/reports.csv
+  outs:
+  - models/model.pkl
+
+
