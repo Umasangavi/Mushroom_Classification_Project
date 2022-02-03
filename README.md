@@ -48,15 +48,15 @@ Screenshots
 ====================================
 **Homepage interface:**
 
-![image](https://user-images.githubusercontent.com/92853376/151565029-e5d62df4-3c2a-4f19-b546-9e7eab0b3621.png)
+![image](https://user-images.githubusercontent.com/92853376/152312227-bf8d75e1-5169-4669-af01-a46c3a58fcf7.png)
 
 **Prediction:**
 
-![image](https://user-images.githubusercontent.com/92853376/151565307-5e5af57f-1299-4e4e-87d2-86bd917d1a3e.png)
+![image](https://user-images.githubusercontent.com/92853376/152312323-0e664ff4-e5ab-48f1-a94d-f190ae6d9ad8.png)
 
 **Download csv file:**
 
-![image](https://user-images.githubusercontent.com/92853376/151565813-c5694fcb-337d-492a-b079-64c2fc9a050b.png)
+![image](https://user-images.githubusercontent.com/92853376/152312423-4f9f4b5a-2149-4a78-87f4-4fc8f150ad6d.png)
 
 **High level design**
 ======================================
@@ -76,11 +76,11 @@ URL:https://drive.google.com/file/d/1jw2Xku081WvGizk1TQ9nImSexfr3dQrB/view?usp=s
 
 **Wireframe document**
 =======================================
-URL: https://drive.google.com/file/d/1A1ZEx1Y4MNZMbT59bik2wqFx2c9kA2N8/view?usp=sharing
+URL: https://drive.google.com/file/d/1OKYYBw37wQuB2cNeIzmjCI97Y7Ggi7jk/view?usp=sharing
 
 **Demo video**
 =======================================
-URL: https://drive.google.com/file/d/1wul-SFt6y3rglOY7jagDpr8NzG_uVHJg/view?usp=sharing
+URL:https://drive.google.com/file/d/1eUfjgxZc36-iSsVw1vN4l_Ru0SQpYv40/view?usp=sharing 
 
 **Linkedin**
 ========================================
